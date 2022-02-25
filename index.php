@@ -1,8 +1,7 @@
 <?php
+require  __DIR__ . '/Config.php';
+require  __DIR__ . '/DB_Connect.php';
 
-$servername = 'localhost';
-$username = '';
-$password = '';
-$dbname = '';
+$stmt = DB_Connect::dbConnect()->prepare("
 
-?>
+");
